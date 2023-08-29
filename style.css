@@ -1,0 +1,399 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.firstfulldiv{
+    height: 865px;
+    width: 1275px;
+    /* border: 2px solid black; */
+    background-color: #ffffff;
+}
+.fulhome{
+    width: 100%;
+    background: linear-gradient(to top, rgba(224, 219, 219, 0.5)50%,rgba(224, 219, 219, 0.5)50%), url(2.png);
+    background-position: center;
+  background-size: cover;
+    height: 100vh;
+   
+}
+
+.bar{
+    /* border: 2px solid black; */
+    height: 70px;
+    width: 900px;
+    float: right;
+    
+    
+}
+.listbar{
+    text-decoration: none;
+    display: flex;
+    
+}
+.buttonbar{
+    width: 130px;
+    height: 35px;
+    background: #ff7200;
+    border: 2px solid #ff7200;
+    margin-top: 10px;
+    color: #ffffff;
+    font-size: 15px;
+    float: right;  
+   margin-left: 50px;
+}
+.searchicon{
+    margin-top: 15px;
+    margin-left: 90px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #946b6b;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: #ff7200;
+}
+
+.divlogo{
+    /* border: 2px solid black; */
+    height: 70px;
+    width: 372px;
+    float: left;
+}
+.companyname{
+  margin-top: 10px;
+  font-size: 25px;
+  float: left;
+  color: #080808;
+  margin-right: 10px;
+  border-radius: 8px;
+  margin-top: 10px;
+
+}
+.logo{
+    height: 35px;
+    width: 45px;
+    margin-top: 7px;
+    float: right;
+}
+.a{
+   /* border: 2px solid black; */
+    height: 40px;
+    width: 250px;
+    float: right;
+    margin-top: 8px;
+    margin-right: 15px;
+
+   
+
+}
+.b{
+    /* border: 2px solid black; */
+    height: 40px;
+    width: 79px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 9px;
+
+}
+.mainpage{
+    height: 500px;
+    width: 700px;
+    /* border: 2px solid black; */
+    float: right;
+    margin-top: 130px;
+}
+.welcome{
+    height: 700px;
+    width: 560px;
+    border: 2px solid rgb(223, 219, 219);
+   
+}
+.head1{
+    margin-top: 200px;
+    font-size: 80px;
+    margin-left: 25px;
+}
+.para{
+    height: 200px;
+    width: 500px;
+    /* border: 2px solid black; */
+    margin-top: 50px;
+    margin-left: 25px;
+}
+.paragraph{
+    margin-top: 20px;
+    font-size: 10px;
+}
+.buttonshop{
+    height: 60px;
+    width: 250px;
+    /* border: 2px solid black; */
+    margin-left: 25px;
+}
+.buttona{
+background: orange;
+
+}
+ .cn{
+    width: 110px;
+    height: 40px;
+    background: orange;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    font-size: 15px;
+    border-radius: 0px;
+    cursor: pointer;
+    transition: .4s ease;
+    margin-top: 20px;
+    
+}
+
+ .d{
+    width: 110px;
+    height: 40px;
+    background: rgb(0, 0, 0);
+    border: none;
+    margin-bottom: 10px;
+    margin-left:10px;
+    font-size: 15px;
+    border-radius: 0px;
+    cursor: pointer;
+    transition: .4s ease; 
+    -webkit-text-fill-color: white;
+    
+    
+ }   
+    
+
+
+.buttonshop .cn a{
+    text-decoration: none;
+    color: #000;
+    transition: .3s ease;
+}
+
+.cn:hover{
+    background-color: #fff;
+}
+.d:hover{
+    background-color:orange;
+}
+/* first page complete */
+.content span{
+    color: #cea9a9;
+    font-size: 65px
+}
+.secorange{
+    height: 300px;
+    border: 1px solid black;
+    width: 355px;
+    margin: 15px;
+    position: relative;
+    left: 55px;
+    
+}
+.organgehead{
+    color: orange;
+    font-size: 25px;
+}
+.orgdetail{
+    margin: 25px;
+}
+.divicons{
+    height: 360px;
+    width: 1250px;
+   color: #050505;
+    display: flex;
+}
+.ourser{
+    height: 100px;
+    text-shadow: 25px;
+}
+.mainhd{
+    height: 50px;
+    
+}
+.readmore{
+    background-color: black;
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    width: 135px;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 20px;
+    
+}
+.freshfruit{
+    padding: 30px;
+    
+    width: 500px;
+
+}
+.testb{
+    /* padding: 20px; */
+    /* border: 2px solid black; */
+    height: 50px;
+    width: 1200px;
+    /* margin: 100px; */
+    margin-left: 45px;
+}
+.pageorange{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    right: 60px;
+}
+.bestorange{
+    padding: 30px;
+    height: 150px;
+    /* border: 2px solid black; */
+    
+}
+.bestorangep{
+    height: 100px;
+    width: 850px;
+    /* border: 2px solid black; */
+    
+}
+.buy1{
+    background-color: black;
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    width: 150px;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 20px;
+    margin: 20px;   
+}
+.testa{
+    /* padding: 20px; */
+    /* border: 2px solid black; */
+    height: 50px;
+    width: 1200px;
+    /* margin: 100px; */
+    margin-left: 45px;
+    
+}
+.man{
+    /* border: 2px solid black; */
+   /* margin-top: 20px; */
+   width: 1200px;
+}
+.man1{
+    border-radius: 150px;
+}
+.testa{
+    padding: 0px;
+    /* border: 2px solid black; */
+    height: 80px;
+    width: 1200px; 
+}
+.ty{
+    height: 500px;
+    width: 800px;
+}
+
+#formname{
+    font-style: none;
+    display: list-item;
+    padding: 20px;
+    border: none;
+    /* border-bottom: 2px solid blue; */
+    width: 400px;
+}
+.sendbutton{
+    background-color:orange;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    width: 150px;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 20px;
+   margin: 10px;
+}
+.contact{
+    margin-left: 25px;
+    margin-top: 100px;
+    height: 400px;
+    width: 1200px;
+    /* border: 2px solid black; */
+    
+}
+.ds{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.dish{
+    position: absolute;
+    right: 20px;
+    padding: 25px;
+    margin: 25px;
+}
+.lastclass{
+    /* border: 2px solid black; */
+    height: 500px;
+    display: flex;
+    
+}
+.lastin1{
+    width: 100px;
+    /* border: 2px solid black; */
+    margin: 25px;
+    padding: 50px;
+    height: 300px;
+    
+}
+.lastin2{
+    width: 250px;
+    /* border: 2px solid black; */
+    margin: 25px;
+    padding: 50px;
+    height: 300px;
+}
+.socialicon{
+    /* margin: 5px;
+    padding: 5px; */
+   margin-top: 20px;
+   margin-inline: 3px;
+}
+.icons{
+    margin-bottom: 7px;
+}
+.inside{
+    padding: 5px;
+    width: 250px;
+    margin-top: 10px;
+    border-radius: 5px;
+
+}
+.lastbutton{
+   margin-left: 0;
+}
+.lastcopy{
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(218, 201, 201);
+}
